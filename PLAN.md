@@ -20,6 +20,14 @@ POST /podcast/refresh - refresh all podcasts
 
 POST /podcast/refresh/:podcastid - refresh certain podcast
 
+POST /user/signup - create new user
+
+POST /user/signin - sign in as user & get session token
+
+POST /user/signout - revoke user token
+
+DELETE /user - delete current user
+
 ## Podcast states
 - Listened
 - Unlistened
